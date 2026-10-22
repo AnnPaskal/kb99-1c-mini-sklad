@@ -1,3 +1,6 @@
+<div id="header" align="center">
+  <img src="https://giphy.com/gifs/QTmykVb11D4AA2nAlF" width="100"/>
+</div>
 # Как запустить базу
 1. Запустите 1С Предприятие.
 2. Добавьте пустую базу в список.
