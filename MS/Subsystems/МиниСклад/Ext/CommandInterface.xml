@@ -6,12 +6,12 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.Поступления.StandardCommand.Create">
+		<Command name="Document.Поступление.StandardCommand.Create">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.РеализацииТоваров.StandardCommand.Create">
+		<Command name="Document.Реализация.StandardCommand.Create">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
