@@ -13,7 +13,7 @@
 		<Metadata name="Catalog.Товары.Form.ФормаЭлемента.Form" id="58ccb0d2-b156-4238-8bb1-ca7b0eed3147.0" configVersion="d09e1e95b6ee924ab69eb35ca9a6274300000000"/>
 		<Metadata name="Configuration.МиниСклад" id="ef3046fb-9d10-408d-b46b-bc3206ae9338" configVersion="4577eeb647e65f4bad1c09658669999900000000"/>
 		<Metadata name="Configuration.МиниСклад.ClientApplicationInterface" id="f57df141-357b-4f7c-bbab-23b1c0597bfd.b" configVersion="464fdc9fe4d37a48917d1931f1938e9500000000"/>
-		<Metadata name="Document.Поступление" id="b4efec0a-a4fc-41bf-8c3e-22fd9115f858" configVersion="9fd71095e994ff4ea6a913a68bbaaeb400000000">
+		<Metadata name="Document.Поступление" id="b4efec0a-a4fc-41bf-8c3e-22fd9115f858" configVersion="5f3802ca76c3284493754c998df23cd600000000">
 			<Metadata name="Document.Поступление.TabularSection.СписокТоваров.Attribute.Сумма" id="3e0f8a82-0cc3-4abf-b431-fa2e8fc508ab"/>
 			<Metadata name="Document.Поступление.Attribute.Контрагент" id="46c1fda5-d49f-4b4a-9e8b-9a6e35039f04"/>
 			<Metadata name="Document.Поступление.TabularSection.СписокТоваров.Attribute.Цена" id="49c10c7f-8707-4ef7-919b-fda7fa870271"/>
@@ -23,7 +23,7 @@
 		</Metadata>
 		<Metadata name="Document.Поступление.Form.ФормаДокумента" id="91cd07f3-8143-4973-a334-3b6b4e0f8825" configVersion="aa4d3f99fa2daa48a80af2b5cc8c502f00000000"/>
 		<Metadata name="Document.Поступление.Form.ФормаДокумента.Form" id="91cd07f3-8143-4973-a334-3b6b4e0f8825.0" configVersion="f7afeeaec7cf954a93496609a606032700000000"/>
-		<Metadata name="Document.Поступление.ObjectModule" id="b4efec0a-a4fc-41bf-8c3e-22fd9115f858.0" configVersion="7b8fa549dec69942b7631f91f53ba53300000000"/>
+		<Metadata name="Document.Поступление.ObjectModule" id="b4efec0a-a4fc-41bf-8c3e-22fd9115f858.0" configVersion="8544fbe80c031f4199bd417969e25ba900000000"/>
 		<Metadata name="Document.Реализация" id="fc96150d-8759-4ba0-8f03-f1dcfb1b9119" configVersion="6e9a8d4361dda946bb4cc9bd710dc7ba00000000">
 			<Metadata name="Document.Реализация.Attribute.Контрагент" id="3cc6a462-c0ca-4f7a-85d6-dff449809bae"/>
 			<Metadata name="Document.Реализация.TabularSection.СписокТоваров.Attribute.Сумма" id="3d51b54a-f6d8-497c-810f-a62b199b46aa"/>
