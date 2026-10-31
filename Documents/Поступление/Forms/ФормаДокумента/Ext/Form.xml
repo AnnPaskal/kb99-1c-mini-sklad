@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
-	<AutoCommandBar name="" id="-1"/>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -77,6 +80,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокТоваровКоличествоКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="СписокТоваровКоличествоРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">СписокТоваровКоличествоПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="СписокТоваровЦена" id="32">
 					<DataPath>Объект.СписокТоваров.Цена</DataPath>
@@ -84,14 +90,16 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокТоваровЦенаКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="СписокТоваровЦенаРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">СписокТоваровЦенаПриИзменении</Event>
+					</Events>
 				</InputField>
-				<InputField name="СписокТоваровСумма" id="35">
+				<LabelField name="СписокТоваровСумма" id="35">
 					<DataPath>Объект.СписокТоваров.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокТоваровСуммаКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="СписокТоваровСуммаРасширеннаяПодсказка" id="37"/>
-				</InputField>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

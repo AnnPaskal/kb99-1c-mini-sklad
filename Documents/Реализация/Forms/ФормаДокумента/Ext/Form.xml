@@ -80,6 +80,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокТоваровКоличествоКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="СписокТоваровКоличествоРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">СписокТоваровКоличествоПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="СписокТоваровЦена" id="32">
 					<DataPath>Объект.СписокТоваров.Цена</DataPath>
@@ -87,14 +90,16 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокТоваровЦенаКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="СписокТоваровЦенаРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">СписокТоваровЦенаПриИзменении</Event>
+					</Events>
 				</InputField>
-				<InputField name="СписокТоваровСумма" id="35">
+				<LabelField name="СписокТоваровСумма" id="35">
 					<DataPath>Объект.СписокТоваров.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="СписокТоваровСуммаКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="СписокТоваровСуммаРасширеннаяПодсказка" id="37"/>
-				</InputField>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
